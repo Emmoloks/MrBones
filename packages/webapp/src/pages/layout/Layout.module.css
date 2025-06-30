@@ -1,0 +1,101 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #f0f4f8;
+}
+
+/* Header with clean hospital theme */
+.header {
+  background-color: #e6f0f8;
+  color: #003366;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 12px 0;
+}
+
+/* Flex container inside header */
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 24px;
+}
+
+/* Left side: Logo + Title */
+.headerTitleContainer {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #003366;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Logo styling */
+.headerLogo {
+  height: 40px;
+}
+
+/* Title beside the logo */
+.headerTitle {
+  margin-left: 12px;
+  font-weight: 600;
+  color: #003366;
+}
+
+/* Navigation list */
+.headerNavList {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* Navigation links */
+.headerNavPageLink {
+  color: #007bff;
+  text-decoration: none;
+  opacity: 0.85;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.headerNavPageLink:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* Active link */
+.headerNavPageLinkActive {
+  color: #0056b3;
+  font-weight: bold;
+}
+
+/* Spacing between nav items */
+.headerNavLeftMargin {
+  margin-left: 20px;
+}
+
+/* Right-side label (e.g. user, partner) */
+.headerRightText {
+  font-weight: 500;
+  color: #444;
+  margin-left: 40px;
+}
+
+/* Microsoft logo styling */
+.microsoftLogo {
+  height: 23px;
+  filter: grayscale(30%);
+}
+
+/* GitHub logo styling */
+.githubLogo {
+  height: 20px;
+  filter: grayscale(100%) brightness(0.8);
+  transition: filter 0.2s ease;
+}
+
+.githubLogo:hover {
+  filter: none;
+}

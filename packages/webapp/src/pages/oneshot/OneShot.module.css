@@ -1,0 +1,107 @@
+.oneshotContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8fbfd;
+  padding: 40px 20px;
+}
+
+.oneshotTopSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.oneshotBottomSection {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  width: 100%;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.oneshotTitle {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 80px;
+  color: #0077cc;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .oneshotTitle {
+    font-size: 2.5rem;
+    margin-top: 20px;
+  }
+}
+
+.oneshotQuestionInput {
+  max-width: 800px;
+  width: 100%;
+  padding: 14px 18px;
+  border: 2px solid #cbe1f1;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  transition: border 0.3s ease;
+}
+
+.oneshotQuestionInput:focus {
+  border-color: #0077cc;
+  outline: none;
+}
+
+.oneshotAnswerContainer {
+  max-width: 800px;
+  width: 100%;
+  padding: 18px;
+  margin-top: 20px;
+  background-color: #e6f0fa;
+  border-radius: 10px;
+  border: 1px solid #d1e3f0;
+  color: #1a2b3c;
+  font-size: 1rem;
+  line-height: 1.6;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.08);
+}
+
+.oneshotAnalysisPanel {
+  width: 600px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #dce6ed;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.oneshotSettingsSeparator {
+  margin-top: 20px;
+  border-top: 1px solid #d3dce5;
+  width: 100%;
+}
+
+.settingsButton {
+  align-self: flex-end;
+  margin-right: 20px;
+  margin-top: 20px;
+  background-color: #e8f0fe;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.settingsButton:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}

@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #f0f4f8;
+  font-family: 'Segoe UI', 'Helvetica Neue', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: linear-gradient(135deg, #e6f7ff 0%, #f9f9fb 100%);
+  color: #1e2a38;
+  position: relative;
+  z-index: 1;
+}
+
+body.dark {
+  background: linear-gradient(135deg, #1b1b1d 0%, #2a2a2e 100%);
+  color: #eaeaea;
+}
+
+/* Bone & muscle motif background */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background: url('https://svgshare.com/i/14y4.svg'), url('https://svgshare.com/i/14y5.svg');
+  background-repeat: repeat;
+  background-size: 120px, 180px;
+  opacity: 0.04;
+  z-index: 0;
+}
+
+/* Container to isolate content visually */
+#root {
+  height: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+/* Medical-style buttons */
+button {
+  all: unset;
+  background: #e8f0fe;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 8px;
+  padding: 0.5em 1.5em;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 123, 255, 0.1);
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+button:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+button:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+/* Link styles */
+a {
+  color: #007bff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #0056b3;
+}
