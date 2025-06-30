@@ -1,6 +1,7 @@
 # 🦴 MrBones
 
-**MrBones** is an AI-powered, interactive skeletal system learning platform designed to make anatomy education engaging and accessible. Built for students, educators, and medical enthusiasts, it combines intelligent Q&A, 3D visualization, and clinical simulations to deliver a rich learning experience.
+**MrBones** is an AI-powered, interactive skeletal system learning platform designed to make anatomy education engaging and accessible. Built for students, educators, and medical enthusiasts like me
+
 
 ---
 
