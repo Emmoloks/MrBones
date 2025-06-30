@@ -32,7 +32,7 @@
 
 # 🦴 MrBones
 
-**MrBones** is an AI-powered, interactive skeletal system learning platform designed to make anatomy education engaging and accessible. Built for students, educators, and medical enthusiasts like me. TRY IT HERE ### https://calm-sea-086fdac0f.2.azurestaticapps.net/#/
+**MrBones** is an AI-powered, interactive skeletal system learning platform designed to make anatomy education engaging and accessible. Built for students, educators, and medical enthusiasts like me. TRY IT HERE: https://calm-sea-086fdac0f.2.azurestaticapps.net/#/
 
 ---
 
